@@ -1,0 +1,2 @@
+class HomebrewingController < ApplicationController
+end
