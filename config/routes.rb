@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get "stout" => "styles#stout"
+  get "stout" => "brews#stout"
+  get "ipa" => "brews#ipa"
 end
