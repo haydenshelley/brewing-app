@@ -12,4 +12,8 @@ class BrewsController < ApplicationController
     render json: {message: "octoberfest"}
   end
 
+  def change_http
+    render json: {message: "hello"}
+  end
+
 end
